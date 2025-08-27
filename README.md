@@ -75,7 +75,7 @@ VITE_BACKEND_URL=http://localhost:5000
 
  ## 🔌 Key Endpoints (Server)
 
--POST /api/auth/login — Login (JWT)
+- POST /api/auth/login — Login (JWT)
 - POST /api/auth/register — Signup
 - GET /api/auth/check — Validate token
 - PUT /api/auth/update-profile — Update profile
@@ -90,6 +90,18 @@ VITE_BACKEND_URL=http://localhost:5000
 - If compound score < threshold (e.g., -0.6), app asks for confirmation via toast modal.
 - On confirm → sends message; on cancel → aborts.
 - Threshold can be tuned in code if needed.
+## 🖼️ Screenshots
+
+🔑 Login / Signup
+  <img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/3f4a2ba0-c8fd-4c01-ba3e-5c340bc1f0c6" />
+  <img width="1917" height="902" alt="image" src="https://github.com/user-attachments/assets/79d8ce60-c313-47b8-89e0-4391067dcddc" />
+  Home 
+  <img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/1de6c5a0-f371-41bb-bfbd-fabbe5c7430d" />
+  <img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/c85bb71e-a7be-4515-94d2-9124de0b3629" />
+  <img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/f624b83d-cd66-4d4a-80f1-3d1e4e1dba6e" />
+  Profile
+  <img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/8f9a2c7d-7bd5-403a-bc85-f085e026c50d" />
+
 
 ## 🤝 Contributing
 
