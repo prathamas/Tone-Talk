@@ -50,15 +50,13 @@ export const ChatProvider = ({ children }) => {
 
   // Function to check tone
   const checkTone = (text) => {
-    const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(text);
-    if (intensity.compound < -0.6) {
-      return "negative";
-    } else if (intensity.compound > 0.3) {
-      return "positive";
-    } else {
-      return "neutral";
-    }
-  };
+  const intensity = vader.SentimentIntensityAnalyzer.polarity_scores(text);
+  
+  if (intensity.compound <= -0.05) return "negative"; // mild negative detected
+  else if (intensity.compound >= 0.05) return "positive"; // mild positive detected
+  else return "neutral"; // everything else
+};
+
 
 
   // Send message to selected user
