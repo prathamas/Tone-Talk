@@ -19,7 +19,7 @@ ToneTalk is a full-stack **MERN** chat app with real-time messaging, profile man
 - **Frontend**: React, Vite, TailwindCSS, React Router, React Hot Toast, Socket.IO Client
 - **Backend**: Node.js, Express, Socket.IO, Cloudinary SDK, VADER sentiment, Mongoose
 - **DB**: MongoDB Atlas
-- **Deploy**: Vercel (client), any Node host (server)
+- **Deploy**: Vercel (client), Render (server)
 
 ---
 
